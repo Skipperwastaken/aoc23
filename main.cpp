@@ -6,8 +6,10 @@
 #include "solution3_2.h"
 #include "solution4_1.h"
 #include "solution4_2.h"
-#include "solution5_1.h"*/
+#include "solution5_1.h"
 #include "solution5_2.h"
+#include "solution6_1.h"*/
+#include "solution6_2.h"
 
 int main() {
     solution();
