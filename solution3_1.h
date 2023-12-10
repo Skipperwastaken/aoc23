@@ -53,7 +53,6 @@ void solution() {
                 if (isNextToSymbol(startNumPos, i-1, symbolsTop) ||
                     isNextToSymbol(startNumPos, i-1, symbolsMid) ||
                     isNextToSymbol(startNumPos, i-1, symbolsBot)) {
-                    std::cout << numString << "\n";
                     sum += std::stoi(numString);
                 }
                 numString = "";
@@ -78,7 +77,6 @@ void solution() {
             if (isNextToSymbol(startNumPos, i, symbolsTop) ||
                 isNextToSymbol(startNumPos, i, symbolsMid)) {
                 sum += std::stoi(numString);
-                std::cout << numString << "\n";
             }
             numString = "";
         }

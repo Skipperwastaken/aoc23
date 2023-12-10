@@ -23,13 +23,11 @@ void solution() {
             }
         } else if (ch == '\n') {
             sum += std::stoi(num);
-            std::cout << "line value: " << num << '\n';
             num = "";
         }
     }
     if(ch != '\n') {
         sum += std::stoi(num);
-        std::cout << "line value: " << num << '\n';
     }
     std::cout << "Sum: " << sum << std::endl;
 }

@@ -1,10 +1,12 @@
+#include <iomanip>
 #include <chrono>
 using std::chrono::high_resolution_clock;
 using std::chrono::duration_cast;
 using std::chrono::duration;
 using std::chrono::milliseconds;
 
-/*#include "solution1_1.h"
+/*
+#include "solution1_1.h"
 #include "solution1_2.h"
 #include "solution2_1.h"
 #include "solution2_2.h"
@@ -22,8 +24,10 @@ using std::chrono::milliseconds;
 #include "solution8_2.h"
 #include "solution9_1.h"
 #include "solution9_2.h"
-#include "solution10_1.h"*/
+#include "solution10_1.h"
 #include "solution10_2.h"
+*/
+#include "solution10_1.h"
 
 int main() {
     auto t1 = high_resolution_clock::now();
@@ -31,6 +35,6 @@ int main() {
     auto t2 = high_resolution_clock::now();
 
     duration<double, std::milli> ms_double = t2 - t1;
-    std::cout << "Execution time: " << ms_double.count() << "ms\n";
+    std::cout << "Execution time: " << std::fixed << std::setprecision(2) << ms_double.count() << "ms\n";
     return 0;
 }
