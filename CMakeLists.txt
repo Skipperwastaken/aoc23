@@ -20,6 +20,8 @@ add_executable(aoc23 main.cpp
         solution7_2.h
         solution8_1.h
         solution8_2.h
+        solution9_1.h
+        solution9_2.h
 )
 
 file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/inputs

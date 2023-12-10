@@ -18,8 +18,10 @@ using std::chrono::milliseconds;
 #include "solution6_2.h"
 #include "solution7_1.h"
 #include "solution7_2.h"
-#include "solution8_1.h"*/
+#include "solution8_1.h"
 #include "solution8_2.h"
+#include "solution9_1.h"*/
+#include "solution9_2.h"
 
 int main() {
     auto t1 = high_resolution_clock::now();
